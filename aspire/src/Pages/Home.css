@@ -1,0 +1,128 @@
+.home {
+    display: flex;
+    max-width: 100%;
+}
+.home .home-container1 {
+    width: 50%;
+    align-items: left;
+    text-align: left;
+    justify-content: left;
+    padding: 10%;
+}
+.home .home-container1 h1{
+    color: #070F2B;
+    font-family: Poppins;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%; /* 65px */
+    text-transform: capitalize;
+}
+
+.home .home-container1 h1 name{
+    background: linear-gradient(90deg, #9290C3 36.25%, #070F2B 79.38%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: Poppins;
+    font-size: 50px;
+    font-style: normal;
+    line-height: 130%;
+    text-transform: capitalize;
+}
+.home .home-container1 h3{
+    width: 665px;
+    color: #35346B;
+    font-family: Poppins;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+/*button */
+
+.home .home-container1 .button1 {
+    margin-top:4%;
+    margin-right: 2%;
+    display: inline-flex;
+    padding: 14px 52px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: #fff;
+    border-radius: 6px;
+    background: linear-gradient(90deg, #070F2B 0%, #9290C3 100%);
+
+    
+    text-align: center;
+    font-size: 15px;
+    font-style: normal;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.home .home-container1 .button1:hover {
+    color: #535C91;
+    background: transparent;
+    border: 2px solid #535C91;
+
+  }
+
+.home .home-container1 .button2 {
+    display: inline-flex;
+    padding: 14px 52px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: #535C91;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 15px;
+    font-style: normal;
+    line-height: normal;
+    text-transform: capitalize;
+    border-radius: 6px;
+    border: 2px solid #535c91b3;
+    background: transparent;
+}
+
+.home .home-container1 .button2:hover {
+    color: #ffffff;
+    border: 2px solid #535c91b3;
+    background: linear-gradient(90deg, #070F2B 0%, #9290C3 100%);
+  }
+
+
+  .home .home-container1 .button3 {
+    margin-top: 2%;
+    width: 424px;
+    height: 55px;
+    flex-shrink: 0;
+    border-radius: 6px;
+    background: linear-gradient(90deg, #070F2B 0%, #9290C3 100%);
+
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 15px;
+    font-style: normal;
+    line-height: normal;
+    text-transform: capitalize;
+  }
+
+  .home .home-container1 .button3:hover{
+    color: #535C91;
+    background: transparent;
+    border: 2px solid #535C91;
+  }
+
+  .home .home-container2{
+    width: 50%;
+    padding-top: 5%;
+  }
+  .home .home-container2 img{
+    max-height: 100%;
+    width: 70%;
+  }

@@ -1,0 +1,58 @@
+
+
+.journey .journey-flex{
+    padding: 5%;
+    display: flex;
+}
+
+.journey h1{
+    color: #070F2B;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%; /* 65px */
+    text-transform: capitalize;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.journey .journey-container1{
+    margin: auto;
+    width: 380px;
+    height: 300px;
+    flex-shrink: 0;
+    border: 2px solid #070F2B;
+}
+
+.journey .journey-container1 .top{
+    display: flex;
+}
+
+.journey .journey-container1 img{
+    width: 60px;
+    height: 60px;
+    padding: 5%;
+}
+
+.journey .journey-container1 .top p{
+    width: 243px;
+    color: #070F2B;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+
+    padding-top: 5%;
+}
+
+.journey .journey-container1 .content p{
+    width: 350px;
+    color: #35346B;
+    font-family: Poppins;
+    font-size: 15px;
+    font-style: normal;
+    line-height: normal;
+
+    padding: 5%;
+}
