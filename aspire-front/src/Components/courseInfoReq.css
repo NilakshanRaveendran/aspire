@@ -1,0 +1,38 @@
+.course-basic-info{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #070F2B;
+    margin: 10px;
+}
+
+.icon img{
+    width: 34px;
+    height: 34px;
+    margin-right: 10px;
+    /*margin*/
+}
+
+.basic-info-text{
+    display: flex;
+    flex-direction: column;
+}
+
+.label{
+    color: #070F2B;
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.value{
+    color: #535C91;
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
