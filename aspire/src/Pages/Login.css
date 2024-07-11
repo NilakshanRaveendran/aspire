@@ -20,6 +20,10 @@
     justify-content: center;
 
 }
+.login .login-container .input_field{
+    padding-left: 10px;
+}
+
 
 .login h1 {
     padding-top: 10%;

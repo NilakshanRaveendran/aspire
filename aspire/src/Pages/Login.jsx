@@ -15,9 +15,12 @@ const Login = () => {
             <h2>
             Your email or Phone number
             </h2>
+            
             <input 
             type="search" 
-            placeholder='Email or User name'/>
+            placeholder='Email or User name'
+            className='input_field'/>
+
             <button className='sign-in-button'>Sign in</button>
             <div className="or">
                 <hr />
