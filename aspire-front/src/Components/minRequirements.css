@@ -1,8 +1,10 @@
 .requirement-page{
-    width: 1440px;
-    height: 2889px;
-    background: #fff;
+    width: 100%;
+
+
     font-family: Poppins;
+
+    margin-top: 20px;
 }
 
 .requirement-page-content{
@@ -11,9 +13,10 @@
     flex-shrink: 0;
     border-radius: 16px;
     border: 2px solid #070F2B;
-    margin-top: 191px;
-    margin-left: 386px;
-    margin-right: 386px;
+
+    align-items: center;
+
+    margin: auto;
 }
 
 .requirement-page-contentd{
@@ -34,22 +37,27 @@
 
 .flex01{
     flex: 0.5;
+    transition: transform 0.5s ease;
 }
 
 .flex02{
     flex: 1.5;
+    transition: transform 0.5s ease;
 }
 
 .flex03{
     flex: 2;
+    transition: transform 0.5s ease;
 }
 
 .flex04{
     flex: 2;
+    transition: transform 0.5s ease;
 }
 
 .flex05{
     flex: 0.8;
+    transition: transform 0.5s ease;
 }
 
 .flex01:hover, .flex02:hover, .flex03:hover, .flex04:hover, .flex05:hover{
@@ -197,7 +205,6 @@ p{
     border: 1px solid #070F2B;
     color: #35346B;
     text-align: center;
-    font-family: Poppins;
     font-size: 12px;
     font-style: normal;
     font-weight: 600;
@@ -272,7 +279,6 @@ p{
     border: 1px solid #070F2B;
     color: #35346B;
     text-align: center;
-    font-family: Poppins;
     font-size: 12px;
     font-style: normal;
     font-weight: 600;
@@ -304,7 +310,6 @@ p{
 
 .stream04 h4{
     color: #35346B;
-    font-family: Poppins;
     font-size: 12px;
     font-style: normal;
     font-weight: 500;
@@ -318,7 +323,6 @@ p{
 
 .note-container p{
     color: #35346B;
-    font-family: Poppins;
     font-size: 15px;
     font-style: normal;
     font-weight: 500;
@@ -334,13 +338,34 @@ p{
     border-radius: 6px;
 }*/
 
+
+.back-button- {
+    padding: 15px;
+    width: 100%;
+
+    font-size: 16px;
+    font-weight: 600;
+    color: #535C91;
+    background: none;
+    border: 2px solid #535C91;
+    border-radius: 6px;
+    cursor: pointer;
+
+    transition: transform 0.5s ease;
+
+}
+.back-button-:hover{
+    transform: scale(1.1);
+    background: linear-gradient(90deg, #070F2B 0%, #9290C3 100%);
+    color: #fff;
+
+}
+/*
 .back-button- {
     display: block;
-    margin-top: 51px;
-    margin-left: 30px;
-    margin-right: 30px;
+    margin: auto;
     align-items: center;
-    padding: 10px 20px;
+    padding: 10px 40px;
     font-family: Poppins;
     font-size: 16px;
     font-weight: 600;
@@ -352,10 +377,11 @@ p{
     width: 530px;
     height: 55px;
     transition: transform 0.5s ease;
-}
+} */
+
 
 .back-button-:hover{
     transform: scale(1.1);
-    background: linear-gradient(90deg, #070F2B 0%, #9290C3 100%);
-    color: #fff;
+    background-color: #959dc7;
+    color: #070F2B;
 }
