@@ -31,7 +31,6 @@
 
 .course-flex-1, .course-flex-2{
     display: flex;
-    transition: transform 0.5s ease-in-out;
 }
 
 
@@ -51,7 +50,7 @@
 }
 
 .flex04{
-    flex: 2;
+    flex: 2.1;
     transition: transform 0.5s ease;
 }
 
@@ -134,7 +133,7 @@
     font-family: Poppins;
     font-size: 12px;
     font-style: normal;
-    font-weight: 600;
+    font-weight: 500;
     line-height: normal;
     transition: transform 0.5s ease;
 }
@@ -147,11 +146,11 @@
 
 
 .sub-05{
-    flex: 0.8;
+    flex: 0.5;
 } 
 
 .sub-06{
-    flex: 1.5;
+    flex: 1.7;
 }
 
 .sub-07{
@@ -159,7 +158,7 @@
 } 
 
 .sub-08{
-    flex : 1;
+    flex :0.5;
 }
 
 h3{
@@ -357,7 +356,7 @@ p{
 .back-button-:hover{
     transform: scale(1.1);
     background: linear-gradient(90deg, #070F2B 0%, #9290C3 100%);
-    color: #fff;
+    font-style: #fff;
 
 }
 /*

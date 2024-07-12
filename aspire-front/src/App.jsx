@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import './App.css';
-import MinReq from './Components/minRequirements';
+import Recommendation from './Pages/recommendation';
 
 
 function App() {
@@ -8,7 +8,7 @@ function App() {
 
   return (
     <>
-      <MinReq/>
+      <Recommendation/>
     </>
   )
 }

@@ -1,0 +1,55 @@
+.link1{
+    display: flex;
+    width: 399px;
+    height: 254px;
+    border-radius: 20px;
+    border: 2px solid rgba(23, 37, 84, 0.60);
+    align-items: center;
+}
+
+
+.logoimg{
+    width: 164px;
+    height: 186px;
+    border-radius: 20px;
+    border: 1px solid #172554;
+    background: #FFF;
+    margin: 24px;
+    align-items: center;
+}
+
+
+.logoimg img{
+    flex: 1;
+    width: 92.637px;
+    height: 102px;
+    padding: 53px 42px;
+}
+
+.link1-con{
+    display: flex;
+    flex-direction: column;
+}
+
+.name{
+    background: linear-gradient(90deg, #070F2B 0%, #9290C3 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 2px;
+}
+
+.descr{
+    color: #000;
+    font-family: Poppins;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-right: 23px;
+}
+

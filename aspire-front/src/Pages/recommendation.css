@@ -1,0 +1,54 @@
+.recom-page{
+    width: 1440px;
+    height: 2351px;
+    background-color: #fff;
+    margin-right: 32px;
+    margin-left: 32px;
+}
+
+.recom-content h2{
+    color: #070F2B;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 130%; /* 65px */
+    text-transform: capitalize;
+    margin-top: 239px;
+}
+
+.gradient-h2{
+    background: linear-gradient(90deg, #070F2B 0%, #9290C3 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+}
+
+.recom-content-box{
+    margin: 87px auto 32px;
+    width: 1375px;
+    height: 1306px;
+    border-radius: 16px;
+    /*border: 2px solid #070F2B;*/
+}
+
+.recom-content-box-01, .recom-content-box-02, .recom-content-box-03, .recom-content-box-04{
+    display: flex;
+
+}
+
+/*.list-01{
+    flex: 1;
+}
+
+.list-02{
+    flex: 1;
+}
+
+.list-03{
+    flex: 1;
+}*/
+
+.list-01, .list-02, .list-03{
+    margin-left: 46px;
+    margin-top: 43px;
+}
