@@ -192,6 +192,13 @@ html, body {
     padding: 120px 0 0 0;
     
   }
+  .field input[text]{
+    height: 30px;
+  }
+  .field ul {
+    margin-top: 0;
+    padding: 60px 0 0 0;
+  }
   
   .skills ul li {
     width: 530px;
@@ -503,6 +510,18 @@ li .img {
     line-height: normal;
     border: 2px solid rgba(53, 52, 107, 0.4);
     cursor: pointer;
+  }
+
+  /* recomendedprofiles */
+  .toggle {
+    display: flex;
+    justify-content: flex-end;
+  }
+  .field .dir h2{
+    margin-right: 140px;
+  }
+  .field input[placeholder]{
+    padding-left: 10px;
   }
   
   /* width */
